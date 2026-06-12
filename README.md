@@ -7,7 +7,4 @@ This programs calculates mortgages based on:
 - Principal
 - Interest Rate
 - Period
-
-  Find the file through:
-  Mortage Calculator -> JavaProject -> src -> Main.java
 ________________________________________________
