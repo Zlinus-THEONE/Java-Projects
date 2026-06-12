@@ -1,5 +1,5 @@
 1. Use all codes responsibly.
-2. All set of codes in this project can be updated if need improving.
+2. Every project in this repository can be updated if need improving.
 
 # Mortage Calculator
 ________________________________________________
