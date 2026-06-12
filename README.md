@@ -1,9 +1,9 @@
 1. Use all codes responsibly.
 2. Every project in this repository can be updated if need improving.
 
-# Mortage Calculator
+# Mortgage Calculator
 ________________________________________________
-This programs calculates mortages based on: 
+This programs calculates mortgages based on: 
 - Principal
 - Interest Rate
 - Period
