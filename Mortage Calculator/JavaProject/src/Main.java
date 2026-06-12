@@ -6,6 +6,9 @@ public class Main {
         final byte PERCENT = 100;
         final byte MONTHS_IN_YEAR = 12;
 
+        System.out.println("Mortgage Calculator");
+        System.out.println("-----------------------");
+
         System.out.print("Principal = ");
         double principal = input.nextDouble();
 
