@@ -55,7 +55,7 @@ public class Main {
             double mortgage = principal*((interestRate * Math.pow(1+interestRate, periodYears)) / (Math.pow(1+interestRate, periodYears) - 1));
 
             System.out.println("-----------------------");
-            System.out.println("Mortgage = $" + mortgage);
+            System.out.printf("Mortgage = $%.2f\n", mortgage);
             System.out.println("-----------------------");
             System.out.println();
 
