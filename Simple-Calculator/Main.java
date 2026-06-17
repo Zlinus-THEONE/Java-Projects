@@ -60,8 +60,8 @@ public class Main {
     }
 
     static float[] CalculateValues(String problem, String operator) {
-        float val1  = Integer.parseInt(problem.substring(0, problem.indexOf(operator)).trim());
-        float val2 = Integer.parseInt(problem.substring(problem.indexOf(operator) + 1).trim());
+        float val1  = Float.parseFloat(problem.substring(0, problem.indexOf(operator)).trim());
+        float val2 = Float.parseFloat(problem.substring(problem.indexOf(operator) + 1).trim());
 
         return new float[]{val1, val2};
     }
