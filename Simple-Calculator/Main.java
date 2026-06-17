@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        float answer = 0;
+        double answer = 0;
         float[] result;
 
-        System.out.println("CALCULATOR +-x÷");
+        System.out.println("CALCULATOR +-x÷^");
         System.out.println("---------------");
         System.out.println("1(Value 1#) +(Operator) 1(Value2#) [PRESS ENTER] =  2 (Result)");
 
@@ -41,8 +41,17 @@ public class Main {
                 result = CalculateValues(problem, "/");
                 answer = result[0]/result[1];
             }
+            else if (problem.contains("^")) {
+                result = CalculateValues(problem, "^");
+                answer = Math.pow(result[0], result[1]);
+            }
 
-            System.out.printf("= %.0f\n", answer);
+            if (answer % 1 != 0) {
+                System.out.printf("ANSWER: %.3f\n", answer);
+            } else {
+                System.out.printf("ANSWER: %.0f\n", answer);
+            }
+
             System.out.println("---------------");
             System.out.println("---------------");
             System.out.println();
