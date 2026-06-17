@@ -9,13 +9,13 @@ public class Main {
 
         System.out.println("CALCULATOR +-x÷");
         System.out.println("---------------");
-        System.out.println("1(Value 1#) +(Operator) 1(Value2#) [ENTER] =  2 (Result)");
+        System.out.println("1(Value 1#) +(Operator) 1(Value2#) [PRESS ENTER] =  2 (Result)");
 
         while (true) {
             System.out.println();
 
             System.out.print("INPUT: ");
-            String problem = input.next().trim();
+            String problem = input.nextLine().trim();
 
             if (problem.contains("+")) {
                 result = CalculateValues(problem, "+");
@@ -28,6 +28,14 @@ public class Main {
             else if (problem.contains("x")) {
                 result = CalculateValues(problem, "x");
                 answer = result[0]*result[1];
+            }
+            else if (problem.contains("*")) {
+                result = CalculateValues(problem, "*");
+                answer = result[0]*result[1];
+            }
+            else if (problem.contains("÷")) {
+                result = CalculateValues(problem, "÷");
+                answer = result[0]/result[1];
             }
             else if (problem.contains("/")) {
                 result = CalculateValues(problem, "/");
