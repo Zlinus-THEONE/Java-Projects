@@ -19,4 +19,5 @@ operators such as:
 - Substruction (-)
 - Multiplication (*)
 - Division (/)
+- To the power of n (^)
 ________________________________________________
