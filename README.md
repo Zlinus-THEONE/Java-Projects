@@ -10,3 +10,13 @@ This programs calculates mortgages based on:
 - Interest Rate
 - Period
 ________________________________________________
+
+# Simple Calculator
+________________________________________________
+This programs calculates intergers based on their 
+operators such as:
+- Addition (+)
+- Substruction (-)
+- Multiplication (*)
+- Division (/)
+________________________________________________
