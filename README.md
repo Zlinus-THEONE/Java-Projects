@@ -21,3 +21,15 @@ operators such as:
 - Division (/)
 - To the power of n (^)
 ________________________________________________
+
+
+# Guess the Number
+________________________________________________
+A simple mini game where you guess 
+the random generated number
+
+- Allows the user to enter a customized boundary (1-?)
+- Contains hints to guide the player
+- You can win points by guessing the number
+- You only have 5 lives 
+________________________________________________
