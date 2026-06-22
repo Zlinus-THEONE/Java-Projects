@@ -64,10 +64,9 @@ public class Main {
                }
            }
 
-           points = 0;
-
            if (lives <= 0) {
                System.out.println("YOU LOST! The number was " + theNumber);
+               points = 0;
                System.out.println("Your Points = " + points);
                System.out.println();
            }
