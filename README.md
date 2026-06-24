@@ -33,3 +33,19 @@ the random generated number
 - You can win points by guessing the number
 - You only have 5 lives 
 ________________________________________________
+
+
+# Student Grade System
+________________________________________________
+This program lists the student's name and grades on a array, 
+it also calculates his or her grades whether the 
+student passed or failed
+
+- Command choices from (1-3):
+    1.Add student
+    2.Remove student
+    3.Print all students
+- Student name (last name, first name, middle initial)
+- Subjects (Math, English, Science)
+- Average score formula ( (s1+s2+s3) / 3 )
+________________________________________________
