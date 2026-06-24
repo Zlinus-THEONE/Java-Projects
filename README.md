@@ -42,9 +42,9 @@ it also calculates his or her grades whether the
 student passed or failed
 
 - Command choices from (1-3):
-    1.Add student
-    2.Remove student
-    3.Print all students
+   1.Add student
+   2.Remove student
+   3.Print all students
 - Student name (last name, first name, middle initial)
 - Subjects (Math, English, Science)
 - Average score formula ( (s1+s2+s3) / 3 )
