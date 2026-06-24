@@ -41,11 +41,9 @@ This program lists the student's name and grades on a array,
 it also calculates his or her grades whether the 
 student passed or failed
 
-- Command choices from (1-3):
-   1.Add student
-   2.Remove student
-   3.Print all students
+- Command choices from (1.Add a student, 2.Remove a student, 3.Print all students)
 - Student name (last name, first name, middle initial)
 - Subjects (Math, English, Science)
 - Average score formula ( (s1+s2+s3) / 3 )
+- Has exception handling
 ________________________________________________
