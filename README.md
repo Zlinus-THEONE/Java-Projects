@@ -1,6 +1,13 @@
+📄 Things to know
 1. Check a certain folder then click the file named "Main.java" to open the code.
 2. Every project in this repository can be updated if need improving.
 3. Use the code responsibly.
+
+📌 Future Improvements
+1. Improve code efficiency
+2. Refactor code following best practices
+3. Add additional features
+4. Improve my skills in object oriented programming
 
 
 # Mortgage Calculator
