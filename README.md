@@ -54,3 +54,16 @@ student passed or failed
 - Average score formula ( (s1+s2+s3) / 3 )
 - Has exception handling
 ________________________________________________
+
+
+# RIAS System — Retail Inventory and Analytical Sales System
+________________________________________________
+
+This program manages product inventory and records sales transactions while providing basic sales analytics based on:
+- Product Name
+- Product Price
+- Stock Quantity
+- Units Sold
+- Total Revenue
+
+________________________________________________
